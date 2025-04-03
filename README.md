@@ -23,10 +23,15 @@ Focusing on Python and contributing to open-source with popular licenses like MI
 #Git Scrapper -
 
 import requests
+
 import pandas as pd
+
 import time
+
 import logging
+
 from typing import List, Dict, Any
+
 
 class GitHubScraper:
     def __init__(self, token: str):
